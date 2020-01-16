@@ -12,192 +12,165 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body>
-    <nav class="blue-grey darken-3" role="navigation">
-        <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo logo">Zeliha Gencel</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+<body id="home">
+    <div class="navbar-fixed">
+        <nav class="black" role="navigation">
+            <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo logo">Zeliha Gencel</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
 
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
-
-        <!-- slider -->
-    </nav>
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
 
 
+        </nav>
+    </div>
+
+    <!-- slider -->
     <section class="slider">
         <ul class="slides">
             <li>
+
                 <img src="image.jpg"> <!-- random image -->
-                <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                <div class="caption center-align">
+                    <h3>For Huge Problems...</h3>
+                    <h5 class="light grey-text text-lighten-3"></h5>
                 </div>
+
             </li>
             <li>
+
                 <img src="image2.jpg"> <!-- random image -->
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                <div class="caption right-align">
+                    <h3>Simple solutions</h3>
+                    <h5 class="light grey-text text-lighten-3"></h5>
                 </div>
+
             </li>
         </ul>
     </section>
 
 
-    <!-- <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-      </div>
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button"
-          class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
-      <br><br>
 
-    </div>
-  </div> -->
-
-
-    <div class="container">
-        <div class="section">
-
-            <!--   Icon Section   -->
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                        <h5 class="center">Speeds up development</h5>
-
-                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that
-                            incorporate our
-                            custom components. Additionally, we refined animations and transitions to provide a smoother
-                            experience
-                            for developers.</p>
-                    </div>
-                </div>
-
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                        <h5 class="center">User Experience Focused</h5>
-
-                        <p class="light">By utilizing elements and principles of Material Design, we were able to create
-                            a framework
-                            that incorporates components and animations that provide more feedback to users.
-                            Additionally, a single
-                            underlying responsive system across all platforms allow for a more unified user experience.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                        <h5 class="center">Easy to work with</h5>
-
-                        <p class="light">We have provided detailed documentation as well as specific code examples to
-                            help new users
-                            get started. We are also always open to feedback and can answer any questions a user may
-                            have about
-                            Materialize.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <br><br>
-    </div>
 
     <!-- section portfolio -->
 
-    <section id="" class="secton section-blog">
-        <h6 class="center">Projects</h6>
-        <div class="row">
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="image.jpg">
-                        <span class="card-title">Card Title</span>
+    <!-- Cv short -->
+    <section id="about" class="scrollspy">
+        <div class="container">
+            A dentist who:
+            <ul>
+                <li> cannot live without tabbouleh, but has to avoid gluten.</li>
+                <li> loves traveling and seeing new places.</li>
+                <li> loves hiking/visiting national parks.</li>
+                <li> Is a Korean bbq fan.</li>
+                <li> likes coding but finds it hard:).</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="projects" class="secton section-blog scrollspy">
+        <h2 class="center">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="image.jpg">
+                            <span class="card-title">Portfolio</span>
+                        </div>
+                        <div class="card-content">
+                            <!-- <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p> -->
+                        </div>
+                        <div class="card-action">
+                            <a href="https://zlhbz.github.io/updated_portfolio_page/">Live Link</a>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                </div>
+
+
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Background-Cinema.jpg">
+                            <span class="card-title">CinemaVox</span>
+                        </div>
+                        <div class="card-content">
+                            <!-- <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p> -->
+                        </div>
+                        <div class="card-action">
+                            <a href="https://bonnerac.github.io/project1/">Live link</a>
+                        </div>
                     </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
+                </div>
+
+
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="codequiz.jpg">
+                            <span class="card-title">Code Quiz</span>
+                        </div>
+                        <div class="card-content">
+                            <!-- <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p> -->
+                        </div>
+                        <div class="card-action">
+                            <a href="https://zlhbz.github.io/code_quiz/">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="workdayschedular.jpg">
+                            <span class="card-title">Work Day Schedular</span>
+                        </div>
+                        <div class="card-content">
+                            <!-- <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p> -->
+                        </div>
+                        <div class="card-action">
+                            <a href="https://zlhbz.github.io/work_day_scheduler/">Live Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="weather_dashboard.png">
+                            <span class="card-title">Weather Dashboard</span>
+                        </div>
+                        <div class="card-content">
+                            <!-- <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p> -->
+                        </div>
+                        <div class="card-action">
+                            <a href="https://zlhbz.github.io/weather_dashboard/">Live Link</a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="image.jpg">
-                        <span class="card-title">Card Title</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="image.jpg">
-                        <span class="card-title">Card Title</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="image.jpg">
-                        <span class="card-title">Card Title</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">This is a link</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
     </section>
     <!-- section form -->
 
-    <section class="section section-contact">
+    <section id="contact" class="section section-contact scrollspy">
         <div class="container">
             <div class="row">
                 <form class="col s12">
@@ -225,8 +198,9 @@
                             <label for="icon_telephone">Message</label>
                         </div>
 
-                        <button class="btn black waves-light" type="submit" name="action">Submit
-                            <i class="material-icons right">send</i>
+                        <button class="btn waves-effect black waves-light" type="submit" name="action">Submit
+                            <i class="waves-effect material-icons right">send</i>
+
                         </button>
 
                     </div>
@@ -236,7 +210,7 @@
     </section>
 
 
-    <footer class="page-footer orange">
+    <footer class="black page-footer orange">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
