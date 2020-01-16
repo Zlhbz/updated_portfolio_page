@@ -9,3 +9,11 @@
   nav .logo{
     margin-left: 50px;
   }
+  .about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #projects{
+    margin-top: 100px;
+  }
